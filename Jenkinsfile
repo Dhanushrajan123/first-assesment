@@ -24,7 +24,7 @@ pipeline {
 
                     docker run -d \
                     --name dhanush-container \
-                    -p 3000:80 \
+                    -p 3001:80 \
                     dhanush-devops-app:latest
                 '''
             }
